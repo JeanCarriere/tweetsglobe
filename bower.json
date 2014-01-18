@@ -10,7 +10,7 @@
 		"jquery": "1.10.2",
 		"modernizr": "~2.6.2",
 		"angular-cookies": "1.2.0-rc.2",
-		"sass-boostrap3": "https://github.com/jlong/sass-bootstrap/archive/master.zip"
+		"bootstrap": "https://github.com/twbs/bootstrap/releases/download/v3.0.3/bootstrap-3.0.3-dist.zip"
 	},
 	"overrides": {
 		"respond": {

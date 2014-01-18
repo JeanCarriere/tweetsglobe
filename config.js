@@ -63,6 +63,7 @@ exports.config = {
 		},
 		stylesheets: {
 			joinTo: {
+                                                        'css/vendor.css': /^bower_components\/bootstrap/,
 				'css/app.css': /^app/
 			}
 		}
