@@ -31,6 +31,11 @@ var App = angular.module('app', ['ngCookies', 'ngResource', 'ui.router'])
                 }
             });
 
+            var socket = io.connect(window.location.hostname);
+    socket.on('data', function(data) {
+        console.log(data);
+    });
+
         // Without server side support html5 must be disabled.
         return $locationProvider.html5Mode(false);
     }]);

@@ -20,6 +20,9 @@ exports.config = {
                         // jquery
                         case 'bower_components/jquery/jquery.js':
 
+                        //Socket io
+                        case 'bower_components/socket.io-client/dist/socket.io.js':
+
                         // angular
                         case 'bower_components/angular/angular.js':
                         case 'bower_components/angular-resource/angular-resource.js':
